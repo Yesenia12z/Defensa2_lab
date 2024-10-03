@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(104, 133, 128);
+}
+.menu{
+    margin: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(51, 100, 18);
+}
+.container{
+    margin: 10px;
+    display: flex;
+    width: 100%;
+}
+.con1{
+    display: flex;
+    background-color: rgb(189, 63, 14);
+    height: 300px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: solid black;
+}
+@keyframes opacidad{
+    0%{opacity: 1;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+.img1{
+    animation: opacidad 2s infinite;
+}
+.con2{
+    display: flex;
+    height: 300px;
+    flex: 2;
+    background-color: rgb(189, 63, 14);
+    text-align: center;
+    border-radius: 30px;
+    border: solid black;
+}
+.titulo{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parrafo{
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.con3{
+    display: flex;
+    background-color: rgb(189, 63, 14);
+    height: 300px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: solid black;
+}
+@keyframes rotacion{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+.img2{
+    animation: rotacion 4s infinite;
+}
+.contenedor{
+    margin: 10px;
+    display: flex;
+    gap: 20px 20px;
+}
+.conte1{
+    background-color: rgb(16, 44, 75);
+    height: 400px;
+    flex: 3.5;
+    border: solid black;
+}
+.table{
+    height: 400px;
+    width: 100%;
+}
+.modal-header{
+    background-color: rgb(1, 43, 14);
+    color: aliceblue;
+}
+.modal-body{
+    background-color: rgb(157, 245, 191);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.modal-footer{
+    background-color: rgb(1, 43, 14);
+}
+.btn-close{
+    color: aliceblue;
+    background-color: aliceblue;
+}
+.conte2{
+    display: flex;
+    height: 400px;
+    flex: 1.5;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+}
+@keyframes derecha{
+    0%{transform: translateX(0);}
+    50%{transform: translateX(200px);}
+    100%{transform: translateX(0);}
+}
+.avu{
+    animation: derecha 2s infinite;
+}
